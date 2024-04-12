@@ -57,7 +57,7 @@ def predict(img) -> Tuple[Dict, float]:
 
 # Create title, description and article strings
 title = "FoodVision"
-description = "An EfficientNetB2 feature extractor computer vision model to classify images of food into [101 different classes](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/food101_class_names.txt)."
+description = "An EfficientNetB2 feature extractor computer vision model to classify images of food into [101 different classes](https://github.com/rcAmith/FoodVision/blob/main/class_names.txt)."
 
 # Create examples list from "examples/" directory
 example_list = [["examples/" + example] for example in os.listdir("examples")]
